@@ -105,3 +105,6 @@ venv.bak/
 
 name_save/
 name_weights/
+
+
+tmp*
