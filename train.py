@@ -49,7 +49,6 @@ import tensorflow as tf
 import numpy as np
 import os
 import time
-from pprint import pprint
 
 def save_model_configs(directory, params):
     path = os.path.join(directory, "parameters.bin")
