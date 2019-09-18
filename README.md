@@ -1,4 +1,4 @@
-# Tensorflow 2.0 Char RNN
+# TensorFlow 2.0 Char RNN
 This repo contains the implementation of Char RNN using Tensorflow eager execution, the code of this repo can be mostly be found on TF official [tutorial](https://www.tensorflow.org/beta/tutorials/text/text_generation)
 
 The Dockerfile is used to set up the GPU environment, so it's not needed to install any CUDA (and others) libs on the machine, the only requirements are the latest version of Docker and Nvidia GPU drivers.
