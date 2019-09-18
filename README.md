@@ -6,9 +6,11 @@ The Dockerfile is used to set up the GPU environment, so it's not needed to inst
 Usage for GPU Docker:
 
     docker build --tag=train-docker .
+    
 Then use the scripts to train on popular names:
 
     ./train-names.sh
+    
 To generate new popular names:
 
     ./eval-names.sh
