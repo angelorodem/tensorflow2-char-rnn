@@ -10,7 +10,5 @@ description: > # this means to ignore newlines until "show_excerpts:"
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Build settings
-theme: cayman
+theme: jekyll-theme-cayman
 
-plugins:
- - jekyll-seo-tag
