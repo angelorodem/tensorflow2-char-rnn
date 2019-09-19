@@ -1,16 +1,8 @@
 title: TensorFlow 2.0 Char RNN
 author: Angelo Rodem
 email: angelorodem@gmail.com
-description: > # this means to ignore newlines until "show_excerpts:"
-  This repo contains a implementation of Char RNN using Tensorflow eager execution,
-  the code of this repo can be mostly be found on TF official tutorial
-  The Dockerfile is used to set up the GPU environment, so it’s not needed to install
-  any CUDA (and others) libs on the machine, the only requirements are the latest version
-  of Docker and Nvidia GPU drivers.
+description: Char RNN with TensorFlow 2.0
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Build settings
-theme: cayman
-
-plugins:
- - jekyll-seo-tag
+theme: jekyll-theme-cayman
