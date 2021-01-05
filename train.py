@@ -213,4 +213,3 @@ for epoch in range(EPOCHS):
 print (Fore.LIGHTGREEN_EX + '\n[Total time {} mins]\n'.format((time.time() - train_start)/60))
 model.save_weights(checkpoint_prefix.format(epoch=epoch))
 
-
